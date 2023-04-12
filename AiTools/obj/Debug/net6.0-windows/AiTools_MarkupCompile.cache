@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\Amr\source\repos\AiTools\AiTools\App.xaml
-11407045341
+5737235705
 
-4-354146325
+27-1643166993
 194237474483
-MainWindow.xaml;
+AiTools\App.xaml;AiTools\MainWindow.xaml;AiTools\Themes\OptionsTheme.xaml;MainWindow.xaml;Themes\OptionsTheme.xaml;
 
-False
+True
 
