@@ -88,8 +88,35 @@
                       Grid.Row="1"
                       ItemContainerStyle="{StaticResource OptionCard}"/>
 
-        </Grid>
+            <StackPanel Grid.Row="2"
+                        Orientation="Horizontal"
+                        Background="#292b2f">
+
+                <Border CornerRadius="25"
+                        Width="30"
+                        Height="30"
+                        Background="#3bff6f"
+                        Margin="18,0,0,0"/>
+
+                <StackPanel VerticalAlignment="Center">
+                    <Label Content="UserName"
+                           Foreground="Wheat"
+                           FontWeight="SemiBold"
+                           Margin="0,-5,0,-5"/>
+                    <Label Content="Comment"
+                           Foreground="Gray"
+                           FontWeight="SemiBold"
+                           FontSize="10"
+                           Margin="0,-8,0,-8"/>
+
+                </StackPanel>
+
+
+
+            </StackPanel>
         
+        </Grid>
+
         
     </Grid>
 </Window>

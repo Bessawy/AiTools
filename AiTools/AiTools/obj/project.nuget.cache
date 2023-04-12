@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sE9B2QJgUWef+thtVg+luqC9SCkymcT2RJGXmWd8PQL4DYHarINjOQIHfJ5c7g8ZL38FzyHxaCwpAzigINOUnQ==",
+  "dgSpecHash": "n0tzpU3mN7g/zJGo+kS14hgxatRLYf5U70GMwODefauMxMBWToXJOci/1FJXqAhNNNQbd6cHxU/LdyswCcn1GQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Amr\\source\\repos\\Test\\AiTools\\AiTools\\AiTools.csproj",
+  "projectFilePath": "C:\\Users\\Amr\\source\\repos\\AiTools\\AiTools\\AiTools\\AiTools.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

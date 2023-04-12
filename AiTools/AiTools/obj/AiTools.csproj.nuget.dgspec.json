@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Amr\\source\\repos\\Test\\AiTools\\AiTools\\AiTools.csproj": {}
+    "C:\\Users\\Amr\\source\\repos\\AiTools\\AiTools\\AiTools\\AiTools.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Amr\\source\\repos\\Test\\AiTools\\AiTools\\AiTools.csproj": {
+    "C:\\Users\\Amr\\source\\repos\\AiTools\\AiTools\\AiTools\\AiTools.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Amr\\source\\repos\\Test\\AiTools\\AiTools\\AiTools.csproj",
+        "projectUniqueName": "C:\\Users\\Amr\\source\\repos\\AiTools\\AiTools\\AiTools\\AiTools.csproj",
         "projectName": "AiTools",
-        "projectPath": "C:\\Users\\Amr\\source\\repos\\Test\\AiTools\\AiTools\\AiTools.csproj",
+        "projectPath": "C:\\Users\\Amr\\source\\repos\\AiTools\\AiTools\\AiTools\\AiTools.csproj",
         "packagesPath": "C:\\Users\\Amr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Amr\\source\\repos\\Test\\AiTools\\AiTools\\obj\\",
+        "outputPath": "C:\\Users\\Amr\\source\\repos\\AiTools\\AiTools\\AiTools\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
