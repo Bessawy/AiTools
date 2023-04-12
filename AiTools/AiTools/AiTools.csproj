@@ -8,10 +8,23 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Icons\211677_image_icon.png" />
+    <None Remove="Images\Background.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Icons\211677_image_icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Background.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="MVVM\Models\" />
     <Folder Include="MVVM\Views\" />
     <Folder Include="Core\" />
-    <Folder Include="Icons\" />
     <Folder Include="Themes\" />
   </ItemGroup>
 

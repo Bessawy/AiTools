@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:AiTools" xmlns:viewmodels="clr-namespace:AiTools.MVVM.ViewModels"
         mc:Ignorable="d"
         Height="650" Width="1200"
-        Background="#36393f"
+        Background="Transparent"
         WindowStyle="none"
         AllowsTransparency="True"
         ResizeMode="CanResizeWithGrip">
@@ -14,31 +14,35 @@
     <Window.DataContext>
         <viewmodels:MainViewModel/>
     </Window.DataContext>
-    
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="25"/>
-            <RowDefinition/>
-        </Grid.RowDefinitions>
 
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="200"/>
-            <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
+    <Border CornerRadius="10" Background="#36393f" Padding="8" BorderThickness="8">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
 
-        <Border Grid.ColumnSpan="2"
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Border Grid.ColumnSpan="2"
                 Background="#252525"
                 MouseDown="Border_MouseDown">
-            
-            <Grid HorizontalAlignment="Stretch">
-                <Label Content="Ai Tools"
-                       Foreground="Azure"
-                       FontWeight="SemiBold"/>
 
-                <StackPanel HorizontalAlignment="Right"
+                <Grid HorizontalAlignment="Stretch"
+                  VerticalAlignment="Center">
+                    <Label Content="AI Tools"
+                       Foreground="Azure"
+                       FontFamily="Cambria"
+                       FontWeight="SemiBold"
+                       Margin="8,0,0,0"/>
+
+                    <StackPanel HorizontalAlignment="Right"
                             Orientation="Horizontal">
 
-                    <Button Width="20" Height="20" 
+                        <Button Width="20" Height="20" 
                             Content="🗕"
                             Background="Transparent"
                             BorderThickness="0"
@@ -47,7 +51,7 @@
                             Click="ButtonMinimize_Click"></Button>
 
 
-                    <Button Width="20" Height="20" 
+                        <Button Width="20" Height="20" 
                             Content="🗖"
                             Background="Transparent"
                             BorderThickness="0"
@@ -55,68 +59,95 @@
                             Foreground="White"
                             Click="ButtonMaximize_Click"></Button>
 
-                    <Button Width="20" Height="20" 
+                        <Button Width="20" Height="20" 
                             Content="🞮"
                             Background="Transparent"
                             BorderThickness="0"
                             FontWeight="Bold"
                             Foreground="White"
                             Click="ButtonMinimze_Click"></Button>
-                    
-                </StackPanel>
 
-            </Grid>
-        </Border>
+                    </StackPanel>
+                </Grid>
+            </Border>
 
-        <Grid Background="#2f3136"
-              Grid.Row="1">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="50"/>
-                <RowDefinition/>
-                <RowDefinition Height="60"/>
-            </Grid.RowDefinitions>
+            <Grid Background="#2f3136"
+              Grid.Row="1" Margin="0,5,0,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition/>
+                    <RowDefinition Height="60"/>
+                </Grid.RowDefinitions>
 
-            <Label Content="Test1"
+                <Label Content="Options"
                    VerticalAlignment="Center"
+                   HorizontalAlignment="Center"
                    FontWeight="Medium"
-                   Foreground="Gray"
-                   Margin="8,0,0,0"/>
+                   FontFamily="Cambria"
+                   Foreground="Gray"/>
 
-            <ListView ItemsSource="{Binding Options}"
+                <ListView ItemsSource="{Binding Options}"
                       Background="Transparent"
                       BorderThickness="0"
                       Grid.Row="1"
                       ItemContainerStyle="{StaticResource OptionCard}"/>
 
-            <StackPanel Grid.Row="2"
+                <StackPanel Grid.Row="2"
                         Orientation="Horizontal"
                         Background="#292b2f">
 
-                <Border CornerRadius="25"
+                    <Border CornerRadius="25"
                         Width="30"
                         Height="30"
                         Background="#3bff6f"
                         Margin="18,0,0,0"/>
 
-                <StackPanel VerticalAlignment="Center">
-                    <Label Content="UserName"
+                    <StackPanel VerticalAlignment="Center">
+                        <Label Content="UserName"
                            Foreground="Wheat"
                            FontWeight="SemiBold"
                            Margin="0,-5,0,-5"/>
-                    <Label Content="Comment"
+                        <Label Content="Comment"
                            Foreground="Gray"
                            FontWeight="SemiBold"
                            FontSize="10"
                            Margin="0,-8,0,-8"/>
 
+                    </StackPanel>
                 </StackPanel>
 
+            </Grid>
 
+            <Grid Grid.Row="1" Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="70"/>
+                </Grid.RowDefinitions>
 
-            </StackPanel>
-        
+                <Border BorderBrush="#2f3136"
+                    BorderThickness="0,0,0,3">
+                    <Grid HorizontalAlignment="Stretch"
+                      Margin="8">
+
+                        <Label Content="@USER"
+                           Foreground="White"
+                           FontWeight="Bold"
+                           Margin="5,0,5,0"
+                           VerticalAlignment="Center"/>
+
+                        <StackPanel HorizontalAlignment="Right"
+                                Orientation="Horizontal">
+                            <Image Width="20" Height="20" 
+                               RenderOptions.BitmapScalingMode="Fant"
+                               Margin="5,0,5,0"
+                               Source="./Icons/211677_image_icon.png"/>
+                        </StackPanel>
+
+                    </Grid>
+                </Border>
+
+            </Grid>
         </Grid>
-
-        
-    </Grid>
+    </Border>
+    
 </Window>
