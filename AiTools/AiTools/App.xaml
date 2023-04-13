@@ -9,6 +9,7 @@
                 <ResourceDictionary Source="./Themes/OptionsTheme.xaml"/>
                 <ResourceDictionary Source="./Themes/OptionItemTheme.xaml"/>
                 <ResourceDictionary Source="./Themes/MessageBoxTheme.xaml"/>
+                <ResourceDictionary Source="./Themes/ScrollerBarTheme.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>

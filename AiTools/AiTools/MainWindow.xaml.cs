@@ -51,9 +51,5 @@ namespace AiTools
             Application.Current.Shutdown();
         }
 
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
-        }
     }
 }
