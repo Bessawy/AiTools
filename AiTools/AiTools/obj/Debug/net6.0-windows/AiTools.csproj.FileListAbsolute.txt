@@ -71,3 +71,4 @@ C:\Users\Amr\source\repos\AiTools\AiTools\AiTools\obj\Debug\net6.0-windows\ref\A
 C:\Users\Amr\source\repos\AiTools\AiTools\AiTools\bin\Debug\net6.0-windows\Icons\211677_image_icon.png
 C:\Users\Amr\source\repos\AiTools\AiTools\AiTools\obj\Debug\net6.0-windows\AiTools_Content.g.cs
 C:\Users\Amr\source\repos\AiTools\AiTools\AiTools\bin\Debug\net6.0-windows\Images\Background.jpg
+C:\Users\Amr\source\repos\AiTools\AiTools\AiTools\obj\Debug\net6.0-windows\Themes\OptionItemTheme.baml
